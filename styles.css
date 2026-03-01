@@ -1,0 +1,134 @@
+body{
+    font-family: Roboto, sans-serif, Gill Sans;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
+/* HEADER */
+
+.header{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    height: 7vh;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+}
+.header > .rightside{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+.rightside > li > a{
+    text-decoration: none;
+    color:white;
+}
+.rightside, .leftside{
+    align-self: center;
+}
+
+/* HERO CONTENT */
+
+.hero.content{
+    box-sizing: border-box;
+    padding: 60px 10px 40px 10px;
+    background-color: #1F2937;
+    color:white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.hero .leftcontent{
+    max-width: 515px;
+}
+.leftcontent .herotitle{
+    font-weight: bolder;
+    font-size: 2.3em;
+}
+.leftcontent .herosubtitle{
+    margin: 5px 0 20px 0;
+}
+.leftcontent .signup-button{
+    width: 60%;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(48, 138, 211);
+    border: 1px solid rgb(31, 130, 210);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.hero .image{
+    border-radius: 5px;
+    height: 200px;
+}
+
+/* CARD CONTENT */
+
+.cards.content{
+    box-sizing: border-box;
+    padding: 40px 0 0px;
+    display: column;
+}
+.cards .title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2em;
+    color:#1F2937;
+    margin-bottom: 15px;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap:30px;
+}
+.card{
+    box-sizing: border-box;
+    width: 200px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card .image{
+    max-width: 200px;
+    border-radius: 5px;
+    box-shadow:1px 1px 3px 0px;
+}
+.card .subcontent{
+    height: 30%;
+}
+.highlight{
+    background-color: rgb(229, 239, 95);
+}
+
+/* QUOTE CONTENT */
+
+.quote-content{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 30vh;
+    justify-content: center;
+    padding: 20px;
+    background-color: #d9e1e5;
+    color: #1F2937;
+    gap: 20px;
+}
+.quote-content .quote{
+    align-self: center;
+    max-width: 700px; 
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.quote-content .quoter{
+    text-align: right;
+    align-self: center;
+}
